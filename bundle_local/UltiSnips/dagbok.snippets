@@ -1,0 +1,23 @@
+snippet new "New entry" b
+`date +%Y-%m-%d`
+  Sto opp        ${1:06:00}
+  La meg        x22:30
+  Vekt          x89.5 kg
+  Vekt (Helene)  xx.x kg
+  Vekt (Are)     xx.x kg
+  Lengde (Are)   xx.x cm
+  Are
+    Sto opp      ${2:06:00}
+    La seg      x19:00
+  Trening        
+  Snopefri
+  Notat          $3
+
+endsnippet
+
+snippet add "Add entry stuff" b
+Sto opp        $1
+La meg         $2
+Trening        $3
+Notat          $4
+endsnippet
